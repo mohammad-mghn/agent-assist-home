@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "Agent Assist",
+    "description": "میانبرهای متنی برای پشتیبان‌ها — هر جا که تایپ می‌کنید. با / برای snippets دائمی یا # برای پاسخ‌های موقت در هر textarea در وب."
+  },
+  "common": {
+    "openSource": "متن‌باز",
+    "download": "دانلود",
+    "github": "GitHub",
+    "features": "ویژگی‌ها",
+    "install": "نصب",
+    "keyFeature": "ویژگی کلیدی",
+    "email": "ایمیل",
+    "linkedIn": "LinkedIn",
+    "portfolio": "نمونه‌کار",
+    "firefox": "Firefox",
+    "chrome": "Chrome"
+  },
+  "nav": {
+    "download": "دانلود"
+  },
+  "language": {
+    "ariaLabel": "زبان",
+    "label": "زبان"
+  },
+  "theme": {
+    "toggle": "تغییر تم"
+  },
+  "hero": {
+    "badge": "متن‌باز",
+    "title": "میانبرهای متنی برای پشتیبان‌ها —",
+    "titleHighlight": "هر جا که تایپ می‌کنید",
+    "description": "تیم‌های پشتیبانی، فروش و عملیات هر روز همان پیام‌ها را تکرار می‌کنند. Agent Assist پاسخ‌های تأییدشده شما را با triggerهای / و # به helpdesk، CRM، چت و ایمیل می‌آورد. بدون جابه‌جایی تب. بدون ژیمناستیک clipboard.",
+    "downloadFor": "دانلود برای {browser}",
+    "chromeBrowsers": "Chrome / Edge / Brave",
+    "viewOnGitHub": "مشاهده در GitHub",
+    "footnote": "رایگان و متن‌باز · روی Chrome، Edge، Brave، Opera و Firefox کار می‌کند",
+    "dashboardAlt": "داشبورد Agent Assist",
+    "dropdownAlt": "منوی کشویی inline Agent Assist"
+  },
+  "trustStrip": {
+    "chromeMv3": "Chrome MV3",
+    "firefoxMv2": "Firefox MV2",
+    "languages": "۶ زبان",
+    "localFirst": "محلی‌اول",
+    "noAccount": "بدون نیاز به حساب"
+  },
+  "features": {
+    "title": "ساخته‌شده برای نحوه واقعی کار تیم‌های پشتیبانی",
+    "subtitle": "سریع‌تر پاسخ دهید بدون ترک تیکت. در کل تیم یک‌دست بمانید.",
+    "items": {
+      "worksEverywhere": {
+        "title": "هر جا که تایپ می‌کنید کار می‌کند",
+        "description": "پاسخ‌ها را مستقیم در فیلد درج کنید — بدون copy-paste، بدون جابه‌جایی تب. Zendesk، Intercom، Gmail، Salesforce و ابزارهای داخلی شما."
+      },
+      "twoTriggers": {
+        "title": "دو trigger، دو کار",
+        "description": "/refund برای پاسخ‌های تأییدشده تیمی که هر روز استفاده می‌کنید. #quick برای موارد یک‌بار مصرف خارج از کتابخانه اصلی."
+      },
+      "keyboardDropdown": {
+        "title": "منوی اولویت‌دار با کیبورد",
+        "description": "تایپ / یا # و ادامه دهید — منو با تایپ شما محدود می‌شود. کلیدهای جهت یا ۱–۹ برای انتخاب، Enter یا Tab برای درج. دست‌ها روی کیبورد می‌مانند."
+      },
+      "library": {
+        "title": "کتابخانه snippets منظم",
+        "description": "میانبرها را در دسته‌های رنگی گروه‌بندی کنید — سلام، سیاست‌ها، پایان‌بندی. مرور، ویرایش و پاک‌سازی گروهی از sidebarهای accordion."
+      },
+      "json": {
+        "title": "اشتراک کتابخانه‌ها به‌صورت JSON",
+        "description": "کتابخانه‌های دائمی و موقت را جدا export کنید. به هم‌تیمی‌ها بدهید، backup بگیرید یا starter pack برای agentهای جدید بفرستید."
+      },
+      "safeImports": {
+        "title": "import امن",
+        "description": "میانبرهای موجود جایگزین می‌شوند؟ ابتدا تأیید واضح می‌گیرید — بدون overwrite خاموش، بدون از دست دادن تصادفی داده."
+      },
+      "testPanel": {
+        "title": "قبل از استفاده واقعی تست کنید",
+        "description": "triggerهای / و # را در sandbox داشبورد قبل از تیکت واقعی مشتری امتحان کنید."
+      },
+      "controls": {
+        "title": "کنترل در دست شماست",
+        "description": "همه میانبرها را site-wide غیرفعال کنید، یا dropdown را مخفی کنید در حالی که insert سریع فعال است. آیکون toolbar دقیقاً نشان می‌دهد چه چیزی روشن است."
+      },
+      "themesLanguages": {
+        "title": "تم‌ها و زبان‌ها",
+        "description": "رابط روشن یا تیره. شش زبان با RTL کامل — انگلیسی (US/UK)، فارسی، عربی، ترکی و کردی."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "چطور کار می‌کند",
+    "subtitle": "در سه قدم ساده شروع کنید",
+    "steps": {
+      "create": {
+        "title": "میانبرهای خود را بسازید",
+        "description": "داشبورد را باز کنید، دسته بسازید، میانبر دائمی (/) یا موقت (#) با پیام‌های تأییدشده تیم اضافه کنید."
+      },
+      "enable": {
+        "title": "افزونه را فعال کنید",
+        "description": "Extension را روشن کنید. در صورت نیاز dropdown را برای منوی fuzzy-search فعال کنید."
+      },
+      "use": {
+        "title": "هر جا استفاده کنید",
+        "description": "در هر تیکت، چت یا فیلد ایمیل، /refund یا #quick تایپ کنید — از منو انتخاب کنید یا Enter/Tab بزنید."
+      }
+    }
+  },
+  "installation": {
+    "title": "نصب",
+    "subtitle": "از zip release نصب کنید. فهرست Chrome Web Store و Firefox Add-ons به‌زودی.",
+    "chromeTab": "Chrome / Edge / Brave / Opera",
+    "firefoxTab": "Firefox",
+    "chromeSteps": [
+      "chrome://extensions را باز کنید",
+      "Developer mode را فعال کنید (toggle بالا سمت راست)",
+      "روی 'Load unpacked' کلیک کنید",
+      "پوشه build کروم unzip شده را انتخاب کنید",
+      "Agent Assist را از toolbar pin کنید"
+    ],
+    "firefoxSteps": [
+      "about:debugging#/runtime/this-firefox را باز کنید",
+      "روی 'Load Temporary Add-on' کلیک کنید",
+      "manifest.json داخل پوشه build Firefox unzip شده را انتخاب کنید",
+      "توجه: add-onهای موقت با بستن Firefox حذف می‌شوند"
+    ],
+    "downloadTitle": "دانلود آخرین release",
+    "latestRelease": "آخرین release {tag} منتشر شده در {date}",
+    "fetchingRelease": "در حال دریافت آخرین نسخه از GitHub Releases",
+    "downloadTag": "دانلود {tag}",
+    "downloadFallback": "دانلود از GitHub Releases",
+    "chromeBuild": "build کروم (.zip)",
+    "firefoxBuild": "build فایرفاکس (.zip)",
+    "downloadHint": "{build} را از آخرین release گیت‌هاب دانلود می‌کند",
+    "quickStartTitle": "شروع سریع بعد از نصب",
+    "quickStartSteps": [
+      "روی آیکون افزونه کلیک کنید → داشبورد باز می‌شود",
+      "Trigger → Extension ON",
+      "دسته بسازید، میانبر اضافه کنید",
+      "در textarea پنل راست تست کنید",
+      "در هر وب‌سایتی استفاده کنید"
+    ],
+    "greenActive": "سبز = فعال",
+    "redDisabled": "قرمز + badge OFF = غیرفعال"
+  },
+  "contributors": {
+    "title": "تیم",
+    "subtitle": "با دقت توسط Mohammad و Hassan ساخته شده",
+    "openTitle": "آماده مشارکت",
+    "openDescription": "Fork، pnpm install، pnpm dev، load unpacked extension، pnpm compile قبل از PR.",
+    "contribute": "مشارکت در GitHub"
+  },
+  "footer": {
+    "tagline": "میانبرهای متنی برای پشتیبان‌ها — هر جا که تایپ می‌کنید.",
+    "product": "محصول",
+    "project": "پروژه",
+    "contact": "تماس",
+    "mitLicense": "مجوز MIT",
+    "releases": "Releaseها",
+    "emailFor": "ایمیل {name}",
+    "copyright": "MIT © 2026 Mohammad & Hassan"
+  }
+}

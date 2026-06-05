@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "Agent Assist",
+    "description": "کورتکراوەی دەق بۆ ئەژانسی پشتیوانی — لە هەر شوێنێک بنووسیت. / بۆ snippets هەمیشەیی یان # بۆ وەڵامە کاتییەکان لە هەر textarea لەسەر وێب."
+  },
+  "common": {
+    "openSource": "سەرچاوە کراوە",
+    "download": "داگرتن",
+    "github": "GitHub",
+    "features": "تایبەتمەندییەکان",
+    "install": "دامەزراندن",
+    "keyFeature": "تایبەتمەندی سەرەکی",
+    "email": "ئیمەیل",
+    "linkedIn": "LinkedIn",
+    "portfolio": "پۆرتفۆلیۆ",
+    "firefox": "Firefox",
+    "chrome": "Chrome"
+  },
+  "nav": {
+    "download": "داگرتن"
+  },
+  "language": {
+    "ariaLabel": "زمان",
+    "label": "زمان"
+  },
+  "theme": {
+    "toggle": "گۆڕینی ڕووکار"
+  },
+  "hero": {
+    "badge": "سەرچاوە کراوە",
+    "title": "کورتکراوەی دەق بۆ ئەژانسی پشتیوانی —",
+    "titleHighlight": "لە هەر شوێنێک بنووسیت",
+    "description": "تیمەکانی پشتیوانی، فرۆشتن و کارگێڕی هەمان پەیامەکان دووبارە دەکەنەوە. Agent Assist وەڵامە پەسندکراوەکانت بە trigger ـەکانی / و # دەهێنێتە helpdesk، CRM، چات و ئیمەیل. بێ گۆڕینی tab. بێ یاری clipboard.",
+    "downloadFor": "داگرتن بۆ {browser}",
+    "chromeBrowsers": "Chrome / Edge / Brave",
+    "viewOnGitHub": "بینین لە GitHub",
+    "footnote": "بەخۆڕایی و سەرچاوە کراوە · لە Chrome، Edge، Brave، Opera و Firefox کار دەکات",
+    "dashboardAlt": "داشبۆردی Agent Assist",
+    "dropdownAlt": "لیستی dropdown ـی Agent Assist"
+  },
+  "trustStrip": {
+    "chromeMv3": "Chrome MV3",
+    "firefoxMv2": "Firefox MV2",
+    "languages": "٦ زمان",
+    "localFirst": "خۆماڵی-یەکەم",
+    "noAccount": "پێویستی بە هەژمار نییە"
+  },
+  "features": {
+    "title": "دراوە بۆ شێوازی ڕاستەقینەی کارکردنی تیمەکانی پشتیوانی",
+    "subtitle": "خێراتر وەڵام بدەرەوە بێ جێهێشتنی ticket. لە سەرانسەری تیمەکەت یەکگرتوو بمێنەرەوە.",
+    "items": {
+      "worksEverywhere": {
+        "title": "لە هەر شوێنێک بنووسیت کار دەکات",
+        "description": "وەڵامەکان ڕاستەوخۆ لە خانەکە دابنێ — بێ copy-paste، بێ گۆڕینی tab. Zendesk، Intercom، Gmail، Salesforce و ئامرازە ناوخۆییەکانت."
+      },
+      "twoTriggers": {
+        "title": "دوو trigger، دوو کار",
+        "description": "/refund بۆ وەڵامە پەسندکراوەکانی تیم کە هەموو ڕۆژێک بەکاریان دەهێنیت. #quick بۆ یەکجارەکان لە دەرەوەی کتێبخانەی سەرەکی."
+      },
+      "keyboardDropdown": {
+        "title": "لیستی dropdown بە تەختەکلیل",
+        "description": "/ یان # بنووسە و بەردەوام بە — لیستەکە لەگەڵ نووسیندا تەسک دەبێت. کلیلەکانی ئاراستە یان ١–٩ بۆ هەڵبژاردن، Enter یان Tab بۆ داخڵکردن."
+      },
+      "library": {
+        "title": "کتێبخانەی snippet ـی ڕێکخراو",
+        "description": "کورتکراوەکان لە پۆلە ڕەنگاوڕەنگەکاندا کۆ بکەرەوە — سڵاو، سیاسەت، کۆتایی. لە sidebar ـەکانی accordion بینین، دەستکاری و پاککردنەوەی کۆ."
+      },
+      "json": {
+        "title": "کتێبخانەکان وەک JSON هاوبەش بکە",
+        "description": "کتێبخانە هەمیشەیی و کاتییەکان جیا export بکە. بە هاوتیم بدە، backup بگەڕێنەوە، یان starter pack بۆ agent ـە نوێیەکان بنێرە."
+      },
+      "safeImports": {
+        "title": "import ـی سالم",
+        "description": "کورتکراوە هەبووەکان دەگۆڕدرێن؟ یەکەم جار دڵنیاکردنەوەی ڕوون دەست دەکەوێت — بێ overwrite ـی بێدەنگ، بێ لەدەستدانی داتا بە هەڵە."
+      },
+      "testPanel": {
+        "title": "پێش بڵاوکردنەوە تاقی بکەرەوە",
+        "description": "trigger ـەکانی / و # لە sandbox ـی داشبۆرد پێش ticket ـی ڕاستەقینەی کڕیار تاقی بکەرەوە."
+      },
+      "controls": {
+        "title": "کۆntrۆڵ لە دەستت",
+        "description": "هەموو کورتکراوەکان site-wide ناچالاک بکە، یان dropdown بشارەوە لەکاتێکدا insert ـی خێرا بەجێ بهێڵە. ئایکۆنی toolbar بە وردی پیشان دەدات چی چالاکە."
+      },
+      "themesLanguages": {
+        "title": "ڕووکار و زمانەکان",
+        "description": "UI ڕووناک یان تاریک. شەش زمان بە RTL ـی تەواو — ئینگلیزی (US/UK)، فارسی، عەرەبی، تورکی و کوردی."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "چۆن کار دەکات",
+    "subtitle": "لە سێ هەنگاوی سادە دەست پێ بکە",
+    "steps": {
+      "create": {
+        "title": "کورتکراوەکانت دروست بکە",
+        "description": "داشبۆرد بکەرەوە، پۆل دروست بکە، کورتکراوەی هەمیشەیی (/) یان کاتی (#) بە پەیامە پەسندکراوەکانی تیم زیاد بکە."
+      },
+      "enable": {
+        "title": "extension چالاک بکە",
+        "description": "Extension داگیرسێنە. ئارەزوومەندانە dropdown بۆ لیستی fuzzy-search چالاک بکە."
+      },
+      "use": {
+        "title": "لە هەر شوێنێک بەکاری بهێنە",
+        "description": "لە هەر ticket، چات یان خانەی ئیمەیل، /refund یان #quick بنووسە — لە لیست هەڵبژێرە یان Enter/Tab دابگرە."
+      }
+    }
+  },
+  "installation": {
+    "title": "دامەزراندن",
+    "subtitle": "لە zip ـی release دامەزرێنە. لیستەکانی Chrome Web Store و Firefox Add-ons بەم زووانە.",
+    "chromeTab": "Chrome / Edge / Brave / Opera",
+    "firefoxTab": "Firefox",
+    "chromeSteps": [
+      "chrome://extensions بکەرەوە",
+      "Developer mode چالاک بکە (toggle لە سەرەوەی ڕاست)",
+      "'Load unpacked' دابگرە",
+      "فۆڵدەری build ـی chrome unzip کراو هەڵبژێرە",
+      "Agent Assist لە toolbar pin بکە"
+    ],
+    "firefoxSteps": [
+      "about:debugging#/runtime/this-firefox بکەرەوە",
+      "'Load Temporary Add-on' دابگرە",
+      "manifest.json لە ناو فۆڵدەری build ـی Firefox unzip کراو هەڵبژێرە",
+      "تێبینی: add-on ـە کاتییەکان کاتێک Firefox دادەخرێت لادەبرێن"
+    ],
+    "downloadTitle": "داگرتنی دوایین release",
+    "latestRelease": "دوایین release {tag} بڵاوکراوەتەوە لە {date}",
+    "fetchingRelease": "وەرگرتنی دوایین وەشان لە GitHub Releases",
+    "downloadTag": "داگرتنی {tag}",
+    "downloadFallback": "داگرتن لە GitHub Releases",
+    "chromeBuild": "build ـی Chrome (.zip)",
+    "firefoxBuild": "build ـی Firefox (.zip)",
+    "downloadHint": "{build} لە دوایین release ـی GitHub دادەگرێت",
+    "quickStartTitle": "دەستپێکی خێرا دوای دامەزراندن",
+    "quickStartSteps": [
+      "کلیک لەسەر ئایکۆنی extension → داشبۆرد دەکرێتەوە",
+      "Trigger → Extension ON",
+      "پۆل دروست بکە، کورتکراوە زیاد بکە",
+      "لە textarea ـی پانێڵی ڕاست تاقی بکەرەوە",
+      "لە هەر ماڵپەڕێک بەکاری بهێنە"
+    ],
+    "greenActive": "سەوز = چالاک",
+    "redDisabled": "سور + badge OFF = ناچالاک"
+  },
+  "contributors": {
+    "title": "تیم",
+    "subtitle": "بە وریایی دروستکراوە لەلایەن Mohammad و Hassan",
+    "openTitle": "کراوەیە بۆ بەشداری",
+    "openDescription": "Fork، pnpm install، pnpm dev، load unpacked extension، pnpm compile پێش PR.",
+    "contribute": "بەشداری لە GitHub"
+  },
+  "footer": {
+    "tagline": "کورتکراوەی دەق بۆ ئەژانسی پشتیوانی — لە هەر شوێنێک بنووسیت.",
+    "product": "بەرهەم",
+    "project": "پرۆژە",
+    "contact": "پەیوەندی",
+    "mitLicense": "مۆڵەتی MIT",
+    "releases": "Release ـەکان",
+    "emailFor": "ئیمەیلی {name}",
+    "copyright": "MIT © 2026 Mohammad & Hassan"
+  }
+}

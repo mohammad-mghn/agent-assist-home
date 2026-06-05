@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "Agent Assist",
+    "description": "Text shortcuts for support agents — anywhere you type. Type / for permanent snippets or # for quick temp replies in any textarea across the web."
+  },
+  "common": {
+    "openSource": "Open Source",
+    "download": "Download",
+    "github": "GitHub",
+    "features": "Features",
+    "install": "Install",
+    "keyFeature": "Key Feature",
+    "email": "Email",
+    "linkedIn": "LinkedIn",
+    "portfolio": "Portfolio",
+    "firefox": "Firefox",
+    "chrome": "Chrome"
+  },
+  "nav": {
+    "download": "Download"
+  },
+  "language": {
+    "ariaLabel": "Language",
+    "label": "Language"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "hero": {
+    "badge": "Open Source",
+    "title": "Text shortcuts for support agents —",
+    "titleHighlight": "anywhere you type",
+    "description": "Customer support, sales, and ops teams repeat the same messages all day. Agent Assist brings your approved replies into helpdesks, CRMs, chat widgets, and email — with / and # triggers. No tab switching. No clipboard gymnastics.",
+    "downloadFor": "Download for {browser}",
+    "chromeBrowsers": "Chrome / Edge / Brave",
+    "viewOnGitHub": "View on GitHub",
+    "footnote": "Free & open source · Works on Chrome, Edge, Brave, Opera, and Firefox",
+    "dashboardAlt": "Agent Assist dashboard",
+    "dropdownAlt": "Agent Assist inline snippet dropdown"
+  },
+  "trustStrip": {
+    "chromeMv3": "Chrome MV3",
+    "firefoxMv2": "Firefox MV2",
+    "languages": "6 Languages",
+    "localFirst": "Local-first",
+    "noAccount": "No account required"
+  },
+  "features": {
+    "title": "Built for how support teams actually work",
+    "subtitle": "Reply faster without leaving the ticket. Stay on-message across your whole team.",
+    "items": {
+      "worksEverywhere": {
+        "title": "Works wherever you type",
+        "description": "Insert replies directly in the field — no copy-paste, no tab switching. Zendesk, Intercom, Gmail, Salesforce, and your internal tools."
+      },
+      "twoTriggers": {
+        "title": "Two triggers, two jobs",
+        "description": "/refund for team-approved replies you reuse every day. #quick for one-offs that stay out of your main library."
+      },
+      "keyboardDropdown": {
+        "title": "Keyboard-first dropdown",
+        "description": "Type / or # and keep going — the menu narrows as you type. Arrow keys or 1–9 to pick, Enter or Tab to insert. Hands stay on the keyboard."
+      },
+      "library": {
+        "title": "Organised snippet library",
+        "description": "Group shortcuts into colour-coded categories — greetings, policies, closings. Browse, edit, and bulk-clear from accordion sidebars."
+      },
+      "json": {
+        "title": "Share libraries as JSON",
+        "description": "Export permanent and temp libraries separately. Hand off to teammates, restore backups, or ship starter packs to new agents."
+      },
+      "safeImports": {
+        "title": "Safe imports",
+        "description": "Replacing existing shortcuts? You'll get a clear confirmation first — no silent overwrites, no accidental data loss."
+      },
+      "testPanel": {
+        "title": "Test before you ship",
+        "description": "Try / and # triggers in the dashboard sandbox before they go live on a real customer ticket."
+      },
+      "controls": {
+        "title": "You're in control",
+        "description": "Disable all shortcuts site-wide, or hide the dropdown while keeping quick insert. The toolbar icon shows exactly what's on."
+      },
+      "themesLanguages": {
+        "title": "Themes & languages",
+        "description": "Light or dark UI. Six languages with full RTL — English (US/UK), Persian, Arabic, Turkish, and Kurdish."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "Get started in three simple steps",
+    "steps": {
+      "create": {
+        "title": "Create your shortcuts",
+        "description": "Open dashboard, create categories, add permanent (/) or temp (#) shortcuts with your team's approved messages."
+      },
+      "enable": {
+        "title": "Enable extension",
+        "description": "Toggle Extension on. Optionally enable dropdown for fuzzy-search menu."
+      },
+      "use": {
+        "title": "Use anywhere",
+        "description": "In any ticket, chat, or email field, type /refund or #quick — pick from menu or press Enter/Tab."
+      }
+    }
+  },
+  "installation": {
+    "title": "Installation",
+    "subtitle": "Install from a release zip. Chrome Web Store and Firefox Add-ons listings coming soon.",
+    "chromeTab": "Chrome / Edge / Brave / Opera",
+    "firefoxTab": "Firefox",
+    "chromeSteps": [
+      "Open chrome://extensions",
+      "Enable Developer mode (top-right toggle)",
+      "Click 'Load unpacked'",
+      "Select unzipped chrome build folder",
+      "Pin Agent Assist from toolbar"
+    ],
+    "firefoxSteps": [
+      "Open about:debugging#/runtime/this-firefox",
+      "Click 'Load Temporary Add-on'",
+      "Select manifest.json inside unzipped Firefox build folder",
+      "Note: temporary add-ons removed when Firefox closes"
+    ],
+    "downloadTitle": "Download latest release",
+    "latestRelease": "Latest release {tag} published {date}",
+    "fetchingRelease": "Fetching the latest version from GitHub Releases",
+    "downloadTag": "Download {tag}",
+    "downloadFallback": "Download from GitHub Releases",
+    "chromeBuild": "Chrome build (.zip)",
+    "firefoxBuild": "Firefox build (.zip)",
+    "downloadHint": "Downloads the {build} from the latest GitHub release",
+    "quickStartTitle": "Post-install quick start",
+    "quickStartSteps": [
+      "Click extension icon → opens dashboard",
+      "Toggle Trigger → Extension ON",
+      "Create category, add shortcut",
+      "Test in right-panel textarea",
+      "Use on any website"
+    ],
+    "greenActive": "Green = active",
+    "redDisabled": "Red + OFF badge = disabled"
+  },
+  "contributors": {
+    "title": "Team",
+    "subtitle": "Built with care by Mohammad & Hassan",
+    "openTitle": "Open to contributions",
+    "openDescription": "Fork, pnpm install, pnpm dev, load unpacked extension, pnpm compile before PR.",
+    "contribute": "Contribute on GitHub"
+  },
+  "footer": {
+    "tagline": "Text shortcuts for support agents — anywhere you type.",
+    "product": "Product",
+    "project": "Project",
+    "contact": "Contact",
+    "mitLicense": "MIT License",
+    "releases": "Releases",
+    "emailFor": "{name}'s Email",
+    "copyright": "MIT © 2026 Mohammad & Hassan"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "Agent Assist",
+    "description": "اختصارات نصية لوكلاء الدعم — في أي مكان تكتب فيه. استخدم / للمقتطفات الدائمة أو # للردود المؤقتة في أي حقل نص على الويب."
+  },
+  "common": {
+    "openSource": "مفتوح المصدر",
+    "download": "تنزيل",
+    "github": "GitHub",
+    "features": "الميزات",
+    "install": "التثبيت",
+    "keyFeature": "ميزة أساسية",
+    "email": "البريد",
+    "linkedIn": "LinkedIn",
+    "portfolio": "معرض الأعمال",
+    "firefox": "Firefox",
+    "chrome": "Chrome"
+  },
+  "nav": {
+    "download": "تنزيل"
+  },
+  "language": {
+    "ariaLabel": "اللغة",
+    "label": "اللغة"
+  },
+  "theme": {
+    "toggle": "تبديل السمة"
+  },
+  "hero": {
+    "badge": "مفتوح المصدر",
+    "title": "اختصارات نصية لوكلاء الدعم —",
+    "titleHighlight": "في أي مكان تكتب فيه",
+    "description": "فرق الدعم والمبيعات والعمليات تكرر نفس الرسائل طوال اليوم. Agent Assist يجلب ردودك المعتمدة إلى helpdesks وCRMs وودجات الدردشة والبريد — بمحفزات / و #. بدون تبديل تبويبات. بدون لعب الحافظة.",
+    "downloadFor": "تنزيل لـ {browser}",
+    "chromeBrowsers": "Chrome / Edge / Brave",
+    "viewOnGitHub": "عرض على GitHub",
+    "footnote": "مجاني ومفتوح المصدر · يعمل على Chrome وEdge وBrave وOpera وFirefox",
+    "dashboardAlt": "لوحة تحكم Agent Assist",
+    "dropdownAlt": "قائمة Agent Assist المنسدلة"
+  },
+  "trustStrip": {
+    "chromeMv3": "Chrome MV3",
+    "firefoxMv2": "Firefox MV2",
+    "languages": "6 لغات",
+    "localFirst": "محلي أولاً",
+    "noAccount": "لا يلزم حساب"
+  },
+  "features": {
+    "title": "مصمم لطريقة عمل فرق الدعم فعلياً",
+    "subtitle": "رد أسرع دون مغادرة التذكرة. حافظ على رسالة موحدة عبر فريقك.",
+    "items": {
+      "worksEverywhere": {
+        "title": "يعمل حيثما تكتب",
+        "description": "أدرج الردود مباشرة في الحقل — بدون نسخ ولصق، بدون تبديل تبويبات. Zendesk وIntercom وGmail وSalesforce وأدواتك الداخلية."
+      },
+      "twoTriggers": {
+        "title": "محفزان، مهمتان",
+        "description": "/refund للردود المعتمدة من الفريق التي تعيد استخدامها يومياً. #quick للحالات لمرة واحدة خارج مكتبتك الرئيسية."
+      },
+      "keyboardDropdown": {
+        "title": "قائمة منسدلة باللوحة المفاتيح",
+        "description": "اكتب / أو # وتابع — القائمة تضيق مع الكتابة. مفاتيح الأسهم أو 1–9 للاختيار، Enter أو Tab للإدراج. يداك تبقيان على لوحة المفاتيح."
+      },
+      "library": {
+        "title": "مكتبة مقتطفات منظمة",
+        "description": "جمّع الاختصارات في فئات ملونة — تحيات وسياسات وختام. تصفح وحرر وامسح بالجملة من الشريط الجانبي accordion."
+      },
+      "json": {
+        "title": "شارك المكتبات كـ JSON",
+        "description": "صدّر المكتبات الدائمة والمؤقتة منفصلة. سلّم لزملائك، استعد النسخ الاحتياطية، أو أرسل حزم البداية للوكلاء الجدد."
+      },
+      "safeImports": {
+        "title": "استيراد آمن",
+        "description": "ستستبدل اختصارات موجودة؟ ستحصل على تأكيد واضح أولاً — بدون استبدال صامت، بدون فقدان بيانات بالخطأ."
+      },
+      "testPanel": {
+        "title": "اختبر قبل الإطلاق",
+        "description": "جرّب محفزات / و # في sandbox لوحة التحكم قبل تذكرة عميل حقيقية."
+      },
+      "controls": {
+        "title": "أنت المتحكم",
+        "description": "عطّل كل الاختصارات على الموقع، أو أخفِ القائمة مع الإبقاء على الإدراج السريع. أيقونة شريط الأدوات تُظهر ما هو مفعّل."
+      },
+      "themesLanguages": {
+        "title": "السمات واللغات",
+        "description": "واجهة فاتحة أو داكنة. ست لغات مع RTL كامل — الإنجليزية (US/UK) والفارسية والعربية والتركية والكردية."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "كيف يعمل",
+    "subtitle": "ابدأ في ثلاث خطوات بسيطة",
+    "steps": {
+      "create": {
+        "title": "أنشئ اختصاراتك",
+        "description": "افتح لوحة التحكم، أنشئ فئات، أضف اختصارات دائمة (/) أو مؤقتة (#) برسائل فريقك المعتمدة."
+      },
+      "enable": {
+        "title": "فعّل الإضافة",
+        "description": "شغّل Extension. فعّل القائمة المنسدلة اختيارياً لقائمة fuzzy-search."
+      },
+      "use": {
+        "title": "استخدم في أي مكان",
+        "description": "في أي تذكرة أو دردشة أو حقل بريد، اكتب /refund أو #quick — اختر من القائمة أو اضغط Enter/Tab."
+      }
+    }
+  },
+  "installation": {
+    "title": "التثبيت",
+    "subtitle": "ثبّت من zip الإصدار. قوائم Chrome Web Store وFirefox Add-ons قريباً.",
+    "chromeTab": "Chrome / Edge / Brave / Opera",
+    "firefoxTab": "Firefox",
+    "chromeSteps": [
+      "افتح chrome://extensions",
+      "فعّل Developer mode (مفتاح أعلى اليمين)",
+      "انقر 'Load unpacked'",
+      "اختر مجلد build كروم المفكوك",
+      "ثبّت Agent Assist من شريط الأدوات"
+    ],
+    "firefoxSteps": [
+      "افتح about:debugging#/runtime/this-firefox",
+      "انقر 'Load Temporary Add-on'",
+      "اختر manifest.json داخل مجلد build Firefox المفكوك",
+      "ملاحظة: الإضافات المؤقتة تُزال عند إغلاق Firefox"
+    ],
+    "downloadTitle": "تنزيل أحدث إصدار",
+    "latestRelease": "أحدث إصدار {tag} نُشر في {date}",
+    "fetchingRelease": "جاري جلب أحدث نسخة من GitHub Releases",
+    "downloadTag": "تنزيل {tag}",
+    "downloadFallback": "تنزيل من GitHub Releases",
+    "chromeBuild": "build كروم (.zip)",
+    "firefoxBuild": "build فايرفوكس (.zip)",
+    "downloadHint": "ينزّل {build} من أحدث release على GitHub",
+    "quickStartTitle": "بدء سريع بعد التثبيت",
+    "quickStartSteps": [
+      "انقر أيقونة الإضافة → تفتح لوحة التحكم",
+      "Trigger → Extension ON",
+      "أنشئ فئة، أضف اختصار",
+      "اختبر في textarea اللوحة اليمنى",
+      "استخدم في أي موقع"
+    ],
+    "greenActive": "أخضر = نشط",
+    "redDisabled": "أحمر + badge OFF = معطّل"
+  },
+  "contributors": {
+    "title": "الفريق",
+    "subtitle": "بُني بعناية بواسطة Mohammad وHassan",
+    "openTitle": "مفتوح للمساهمات",
+    "openDescription": "Fork، pnpm install، pnpm dev، load unpacked extension، pnpm compile قبل PR.",
+    "contribute": "ساهم على GitHub"
+  },
+  "footer": {
+    "tagline": "اختصارات نصية لوكلاء الدعم — في أي مكان تكتب فيه.",
+    "product": "المنتج",
+    "project": "المشروع",
+    "contact": "التواصل",
+    "mitLicense": "رخصة MIT",
+    "releases": "الإصدارات",
+    "emailFor": "بريد {name}",
+    "copyright": "MIT © 2026 Mohammad & Hassan"
+  }
+}

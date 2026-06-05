@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "Agent Assist",
+    "description": "Destek temsilcileri için metin kısayolları — yazdığınız her yerde. Kalıcı snippets için / veya web'deki herhangi bir textarea'da hızlı geçici yanıtlar için # kullanın."
+  },
+  "common": {
+    "openSource": "Açık Kaynak",
+    "download": "İndir",
+    "github": "GitHub",
+    "features": "Özellikler",
+    "install": "Kurulum",
+    "keyFeature": "Temel Özellik",
+    "email": "E-posta",
+    "linkedIn": "LinkedIn",
+    "portfolio": "Portfolyo",
+    "firefox": "Firefox",
+    "chrome": "Chrome"
+  },
+  "nav": {
+    "download": "İndir"
+  },
+  "language": {
+    "ariaLabel": "Dil",
+    "label": "Dil"
+  },
+  "theme": {
+    "toggle": "Temayı değiştir"
+  },
+  "hero": {
+    "badge": "Açık Kaynak",
+    "title": "Destek temsilcileri için metin kısayolları —",
+    "titleHighlight": "yazdığınız her yerde",
+    "description": "Müşteri destek, satış ve operasyon ekipleri aynı mesajları gün boyu tekrarlar. Agent Assist onaylı yanıtlarınızı / ve # tetikleyicileriyle helpdesk, CRM, sohbet ve e-postaya getirir. Sekme değiştirme yok. Pano jimnastiği yok.",
+    "downloadFor": "{browser} için indir",
+    "chromeBrowsers": "Chrome / Edge / Brave",
+    "viewOnGitHub": "GitHub'da görüntüle",
+    "footnote": "Ücretsiz ve açık kaynak · Chrome, Edge, Brave, Opera ve Firefox'ta çalışır",
+    "dashboardAlt": "Agent Assist panosu",
+    "dropdownAlt": "Agent Assist satır içi snippet menüsü"
+  },
+  "trustStrip": {
+    "chromeMv3": "Chrome MV3",
+    "firefoxMv2": "Firefox MV2",
+    "languages": "6 Dil",
+    "localFirst": "Yerel-öncelikli",
+    "noAccount": "Hesap gerekmez"
+  },
+  "features": {
+    "title": "Destek ekiplerinin gerçekten çalışma biçimine göre tasarlandı",
+    "subtitle": "Bileti bırakmadan daha hızlı yanıtlayın. Tüm ekibinizde tutarlı kalın.",
+    "items": {
+      "worksEverywhere": {
+        "title": "Yazdığınız her yerde çalışır",
+        "description": "Yanıtları doğrudan alana ekleyin — kopyala-yapıştır yok, sekme değiştirme yok. Zendesk, Intercom, Gmail, Salesforce ve dahili araçlarınız."
+      },
+      "twoTriggers": {
+        "title": "İki tetikleyici, iki iş",
+        "description": "/refund her gün kullandığınız ekip onaylı yanıtlar için. #quick ana kütüphanenizin dışında kalan tek seferlikler için."
+      },
+      "keyboardDropdown": {
+        "title": "Klavye öncelikli açılır menü",
+        "description": "/ veya # yazın ve devam edin — menü yazdıkça daralır. Seçmek için ok tuşları veya 1–9, eklemek için Enter veya Tab. Eller klavyede kalır."
+      },
+      "library": {
+        "title": "Düzenli snippet kütüphanesi",
+        "description": "Kısayolları renkli kategorilere ayırın — selamlar, politikalar, kapanışlar. Accordion kenar çubuklarından göz atın, düzenleyin ve toplu temizleyin."
+      },
+      "json": {
+        "title": "Kütüphaneleri JSON olarak paylaşın",
+        "description": "Kalıcı ve geçici kütüphaneleri ayrı dışa aktarın. Ekip arkadaşlarına devredin, yedekleri geri yükleyin veya yeni temsilcilere başlangıç paketleri gönderin."
+      },
+      "safeImports": {
+        "title": "Güvenli içe aktarma",
+        "description": "Mevcut kısayolların yerini mi alacaksınız? Önce net bir onay alırsınız — sessiz üzerine yazma yok, kazara veri kaybı yok."
+      },
+      "testPanel": {
+        "title": "Yayınlamadan önce test edin",
+        "description": "/ ve # tetikleyicilerini gerçek bir müşteri bileti öncesinde pano sandbox'ında deneyin."
+      },
+      "controls": {
+        "title": "Kontrol sizde",
+        "description": "Tüm kısayolları site genelinde devre dışı bırakın veya hızlı eklemeyi korurken açılır menüyü gizleyin. Araç çubuğu simgesi neyin açık olduğunu gösterir."
+      },
+      "themesLanguages": {
+        "title": "Temalar ve diller",
+        "description": "Açık veya koyu arayüz. Tam RTL ile altı dil — İngilizce (US/UK), Farsça, Arapça, Türkçe ve Kürtçe."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl çalışır",
+    "subtitle": "Üç basit adımda başlayın",
+    "steps": {
+      "create": {
+        "title": "Kısayollarınızı oluşturun",
+        "description": "Panoyu açın, kategoriler oluşturun, ekibinizin onaylı mesajlarıyla kalıcı (/) veya geçici (#) kısayollar ekleyin."
+      },
+      "enable": {
+        "title": "Uzantıyı etkinleştirin",
+        "description": "Extension'ı açın. İsteğe bağlı olarak fuzzy-search menüsü için açılır menüyü etkinleştirin."
+      },
+      "use": {
+        "title": "Her yerde kullanın",
+        "description": "Herhangi bir bilet, sohbet veya e-posta alanında /refund veya #quick yazın — menüden seçin veya Enter/Tab'a basın."
+      }
+    }
+  },
+  "installation": {
+    "title": "Kurulum",
+    "subtitle": "Bir release zip'inden kurun. Chrome Web Store ve Firefox Add-ons listeleri yakında.",
+    "chromeTab": "Chrome / Edge / Brave / Opera",
+    "firefoxTab": "Firefox",
+    "chromeSteps": [
+      "chrome://extensions adresini açın",
+      "Developer mode'u etkinleştirin (sağ üst anahtar)",
+      "'Load unpacked' tıklayın",
+      "Açılmış chrome build klasörünü seçin",
+      "Agent Assist'i araç çubuğundan sabitleyin"
+    ],
+    "firefoxSteps": [
+      "about:debugging#/runtime/this-firefox adresini açın",
+      "'Load Temporary Add-on' tıklayın",
+      "Açılmış Firefox build klasöründeki manifest.json'u seçin",
+      "Not: geçici eklentiler Firefox kapanınca kaldırılır"
+    ],
+    "downloadTitle": "En son sürümü indir",
+    "latestRelease": "En son sürüm {tag}, {date} tarihinde yayınlandı",
+    "fetchingRelease": "GitHub Releases'ten en son sürüm alınıyor",
+    "downloadTag": "{tag} indir",
+    "downloadFallback": "GitHub Releases'ten indir",
+    "chromeBuild": "Chrome build (.zip)",
+    "firefoxBuild": "Firefox build (.zip)",
+    "downloadHint": "GitHub'daki en son release'ten {build} indirir",
+    "quickStartTitle": "Kurulum sonrası hızlı başlangıç",
+    "quickStartSteps": [
+      "Uzantı simgesine tıklayın → pano açılır",
+      "Trigger → Extension ON",
+      "Kategori oluşturun, kısayol ekleyin",
+      "Sağ panel textarea'sında test edin",
+      "Herhangi bir web sitesinde kullanın"
+    ],
+    "greenActive": "Yeşil = aktif",
+    "redDisabled": "Kırmızı + OFF rozeti = devre dışı"
+  },
+  "contributors": {
+    "title": "Ekip",
+    "subtitle": "Mohammad ve Hassan tarafından özenle geliştirildi",
+    "openTitle": "Katkılara açık",
+    "openDescription": "Fork, pnpm install, pnpm dev, load unpacked extension, PR öncesi pnpm compile.",
+    "contribute": "GitHub'da katkıda bulun"
+  },
+  "footer": {
+    "tagline": "Destek temsilcileri için metin kısayolları — yazdığınız her yerde.",
+    "product": "Ürün",
+    "project": "Proje",
+    "contact": "İletişim",
+    "mitLicense": "MIT Lisansı",
+    "releases": "Sürümler",
+    "emailFor": "{name} e-postası",
+    "copyright": "MIT © 2026 Mohammad & Hassan"
+  }
+}
