@@ -4,7 +4,7 @@
     "description": "میانبرهای متنی برای پشتیبان‌ها — هر جا که تایپ می‌کنید. با / برای snippets دائمی یا # برای پاسخ‌های موقت در هر textarea در وب."
   },
   "common": {
-    "openSource": "متن‌باز",
+    "openSource": "Open Source",
     "download": "دانلود",
     "github": "GitHub",
     "features": "ویژگی‌ها",
@@ -27,14 +27,14 @@
     "toggle": "تغییر تم"
   },
   "hero": {
-    "badge": "متن‌باز",
+    "badge": "Open Source",
     "title": "میانبرهای متنی برای پشتیبان‌ها —",
     "titleHighlight": "هر جا که تایپ می‌کنید",
     "description": "تیم‌های پشتیبانی، فروش و عملیات هر روز همان پیام‌ها را تکرار می‌کنند. Agent Assist پاسخ‌های تأییدشده شما را با triggerهای / و # به helpdesk، CRM، چت و ایمیل می‌آورد. بدون جابه‌جایی تب. بدون ژیمناستیک clipboard.",
     "downloadFor": "دانلود برای {browser}",
     "chromeBrowsers": "Chrome / Edge / Brave",
     "viewOnGitHub": "مشاهده در GitHub",
-    "footnote": "رایگان و متن‌باز · روی Chrome، Edge، Brave، Opera و Firefox کار می‌کند",
+    "footnote": "رایگان و Open Source · روی Chrome، Edge، Brave، Opera و Firefox کار می‌کند",
     "dashboardAlt": "داشبورد Agent Assist",
     "dropdownAlt": "منوی کشویی inline Agent Assist"
   },

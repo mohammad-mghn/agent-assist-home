@@ -1,5 +1,6 @@
 import { Download } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { Container } from "@/components/layout/container";
 import { LogoLink } from "@/components/layout/logo-link";
 import { ExternalLink } from "@/components/shared/external-link";
 import { PrimaryButton } from "@/components/shared/primary-button";
@@ -11,9 +12,9 @@ export async function Navigation() {
   const t = await getTranslations();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border px-6 lg:px-8">
+      <Container>
+        <div className="flex items-center justify-between h-[var(--header-height)]">
           <div className="flex items-center gap-8">
             <LogoLink />
             <div className="hidden md:flex items-center gap-6">
@@ -46,7 +47,7 @@ export async function Navigation() {
             </PrimaryButton>
           </div>
         </div>
-      </div>
+      </Container>
     </nav>
   );
 }

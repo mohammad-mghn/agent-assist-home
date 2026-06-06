@@ -7,7 +7,19 @@ import { Container } from "@/components/layout/container";
 import { ExternalLink } from "@/components/shared/external-link";
 import { siteConfig } from "@/lib/site";
 import { BrowserDownloadMenu } from "./browser-download-menu";
-import { HERO_IMAGES } from "./hero-images";
+
+const HERO_IMAGES = {
+	dashboard: {
+		src: "/images/dashboard.png",
+		width: 3024,
+		height: 1802,
+	},
+	dropdown: {
+		src: "/images/dropdown-preview.png",
+		width: 3832,
+		height: 2992,
+	},
+} as const;
 
 export function HeroContent() {
 	const t = useTranslations("hero");

@@ -23,19 +23,11 @@
 </p>
 
 <p>
-  <img src="./public/images/en-light.png" alt="Agent Assist homepage hero — light theme" width="100%" />
+  <img src="./public/images/dashboard.png" alt="Agent Assist dashboard preview" width="100%" />
 </p>
 
 <p>
-  <img src="./public/images/en-dark.png" alt="Agent Assist homepage hero — dark theme" width="100%" />
-</p>
-
-<p>
-  <img src="./public/images/dropdown-light.png" alt="Agent Assist inline snippet menu — light theme" width="100%" />
-</p>
-
-<p>
-  <img src="./public/images/dropdown-dark.png" alt="Agent Assist inline snippet menu — dark theme" width="100%" />
+  <img src="./public/images/dropdown-preview.png" alt="Agent Assist inline snippet menu" width="100%" />
 </p>
 
 ---
@@ -91,7 +83,7 @@ Light and dark mode via `next-themes`, matching the extension dashboard aestheti
 |-------|--------|
 | Framework | Next.js 15 App Router |
 | i18n | next-intl with middleware + `[locale]` routing |
-| Styling | Tailwind CSS v4, shadcn/ui tokens |
+| Styling | Tailwind CSS v4 |
 | Themes | next-themes (system / light / dark) |
 | Release data | GitHub Releases API (ISR + client refresh) |
 
