@@ -154,9 +154,98 @@
     "product": "Product",
     "project": "Project",
     "contact": "Contact",
+    "privacy": "Privacy Policy",
     "mitLicense": "MIT License",
     "releases": "Releases",
     "emailFor": "{name}'s Email",
     "copyright": "MIT © 2026 Mohammad & Hassan"
+  },
+  "privacy": {
+    "metadata": {
+      "title": "Privacy Policy",
+      "description": "How Agent Assist handles your data. Local-first snippet storage, no analytics, and no data sold to third parties."
+    },
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 7, 2026",
+    "intro": "Agent Assist is a browser extension that expands text snippets while you type. We built it to be local-first: your shortcuts stay on your device, and we do not run servers that receive your data.",
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "paragraphs": [
+          "Agent Assist lets you create text shortcuts and insert them in textarea and rich-text fields across the web using / and # triggers.",
+          "This policy explains what the extension accesses, what it stores, and what we do not do with your information."
+        ]
+      },
+      "dataCollection": {
+        "title": "Data we collect",
+        "paragraphs": [
+          "We do not collect, sell, or transmit your personal data to our servers. Agent Assist has no accounts, no analytics, and no remote backend.",
+          "Any information you enter — such as snippet text, category names, or shortcut labels — is created by you and stored locally in your browser."
+        ]
+      },
+      "localStorage": {
+        "title": "What is stored on your device",
+        "paragraphs": [
+          "The extension uses the Chrome Storage API to save your snippet library, categories, on/off toggle, dropdown preference, UI theme, and language. Data is kept in chrome.storage.local on your device.",
+          "A small metadata copy may also be written to chrome.storage.sync so your settings can follow your signed-in Chrome profile. That sync is handled by Google as part of Chrome Sync — not by us."
+        ]
+      },
+      "pageAccess": {
+        "title": "Access to web page content",
+        "paragraphs": [
+          "To provide snippet expansion, a content script runs on web pages where you type. It listens only in textarea and contenteditable fields.",
+          "The extension reads the text around your cursor to detect / or # triggers and to replace them with your saved snippet. This processing happens entirely on your device in real time. We do not log, store, or send the contents of your tickets, emails, or chats to any server."
+        ]
+      },
+      "noRemote": {
+        "title": "No remote code",
+        "paragraphs": [
+          "All extension code is bundled in the package you install from the Chrome Web Store or GitHub release. Agent Assist does not load JavaScript from external URLs, use eval(), or execute code from outside the extension package."
+        ]
+      },
+      "thirdParties": {
+        "title": "Third parties",
+        "paragraphs": [
+          "We do not sell, rent, or share your data with advertisers, data brokers, or other third parties.",
+          "The only external services involved are those provided by your browser vendor (for example, Chrome Sync if you enable it) and the Chrome Web Store for distribution and updates."
+        ]
+      },
+      "chromeSync": {
+        "title": "Chrome Sync",
+        "paragraphs": [
+          "If you are signed into Chrome and have Sync enabled, snippet metadata and settings stored in chrome.storage.sync may be copied across your Chrome profile by Google. We do not control Chrome Sync. Review Google's privacy policy for how that service handles your data."
+        ]
+      },
+      "userControl": {
+        "title": "Your choices",
+        "paragraphs": [
+          "You are in full control of your data:"
+        ],
+        "items": [
+          "Export your snippet library as JSON or Excel from the dashboard at any time.",
+          "Edit or delete individual shortcuts and categories in the dashboard.",
+          "Turn the extension off globally from the dashboard or toolbar icon.",
+          "Uninstall the extension to remove locally stored data from your browser."
+        ]
+      },
+      "children": {
+        "title": "Children's privacy",
+        "paragraphs": [
+          "Agent Assist is a productivity tool for professionals and is not directed at children under 13. We do not knowingly collect personal information from children."
+        ]
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "paragraphs": [
+          "We may update this policy when the extension changes. The \"Last updated\" date at the top of this page will reflect the latest revision. Continued use of Agent Assist after changes means you accept the updated policy."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "paragraphs": [
+          "Questions about this privacy policy or Agent Assist? Reach us by email:"
+        ]
+      }
+    }
   }
 }

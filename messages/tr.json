@@ -154,9 +154,98 @@
     "product": "Ürün",
     "project": "Proje",
     "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
     "mitLicense": "MIT Lisansı",
     "releases": "Sürümler",
     "emailFor": "{name} e-postası",
     "copyright": "MIT © 2026 Mohammad & Hassan"
+  },
+  "privacy": {
+    "metadata": {
+      "title": "Gizlilik Politikası",
+      "description": "Agent Assist verilerinizi nasıl işler. Yerel snippet depolama, analitik yok ve üçüncü taraflara veri satışı yok."
+    },
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: 7 Haziran 2026",
+    "intro": "Agent Assist, yazarken metin snippet'lerini genişleten bir tarayıcı uzantısıdır. Yerel öncelikli olarak tasarlandı: kısayollarınız cihazınızda kalır ve verilerinizi alan sunucular çalıştırmıyoruz.",
+    "sections": {
+      "overview": {
+        "title": "Genel bakış",
+        "paragraphs": [
+          "Agent Assist, / ve # tetikleyicileriyle web genelinde textarea ve zengin metin alanlarına metin kısayolları oluşturmanızı ve eklemenizi sağlar.",
+          "Bu politika, uzantının neye eriştiğini, neyi depoladığını ve bilgilerinizle neler yapmadığımızı açıklar."
+        ]
+      },
+      "dataCollection": {
+        "title": "Topladığımız veriler",
+        "paragraphs": [
+          "Kişisel verilerinizi toplamıyor, satmıyor veya sunucularımıza aktarmıyoruz. Agent Assist'te hesap, analitik veya uzak arka uç yoktur.",
+          "Girdiğiniz bilgiler — snippet metni, kategori adları veya kısayol etiketleri gibi — sizin tarafınızdan oluşturulur ve tarayıcınızda yerel olarak saklanır."
+        ]
+      },
+      "localStorage": {
+        "title": "Cihazınızda saklananlar",
+        "paragraphs": [
+          "Uzantı, snippet kütüphanenizi, kategorileri, açık/kapalı durumunu, açılır menü tercihini, arayüz temasını ve dili kaydetmek için Chrome Storage API kullanır. Veriler cihazınızdaki chrome.storage.local'de tutulur.",
+          "Ayarlarınızın oturum açmış Chrome profilinizi takip etmesi için küçük bir meta veri kopyası chrome.storage.sync'e de yazılabilir. Bu senkronizasyon Google tarafından Chrome Sync'in parçası olarak yapılır — bizim tarafımızdan değil."
+        ]
+      },
+      "pageAccess": {
+        "title": "Web sayfası içeriğine erişim",
+        "paragraphs": [
+          "Snippet genişletmeyi sağlamak için, yazdığınız sayfalarda bir content script çalışır. Yalnızca textarea ve contenteditable alanlarında dinler.",
+          "Uzantı, / veya # tetikleyicilerini algılamak ve kayıtlı snippet ile değiştirmek için imlecinizin etrafındaki metni okur. Bu işlem tamamen cihazınızda gerçek zamanlı yapılır. Bilet, e-posta veya sohbet içeriklerinizi kaydetmiyor, saklamıyor veya herhangi bir sunucuya göndermiyoruz."
+        ]
+      },
+      "noRemote": {
+        "title": "Uzak kod yok",
+        "paragraphs": [
+          "Tüm uzantı kodu, Chrome Web Store veya GitHub sürümünden yüklediğiniz pakette bulunur. Agent Assist harici URL'lerden JavaScript yüklemez, eval() kullanmaz ve uzantı paketinin dışındaki kodu çalıştırmaz."
+        ]
+      },
+      "thirdParties": {
+        "title": "Üçüncü taraflar",
+        "paragraphs": [
+          "Verilerinizi reklamverenlere, veri simsarlarına veya diğer üçüncü taraflara satmıyor, kiralamıyor veya paylaşmıyoruz.",
+          "Tek dış hizmetler, tarayıcı sağlayıcınızın sundukları (örneğin etkinleştirdiyseniz Chrome Sync) ve dağıtım ile güncellemeler için Chrome Web Store'dur."
+        ]
+      },
+      "chromeSync": {
+        "title": "Chrome Sync",
+        "paragraphs": [
+          "Chrome'da oturum açtıysanız ve Sync etkinse, chrome.storage.sync'te saklanan snippet meta verileri ve ayarlar Google tarafından Chrome profilinizde kopyalanabilir. Chrome Sync'i kontrol etmiyoruz. Bu hizmetin verilerinizi nasıl işlediğini Google'ın gizlilik politikasından inceleyin."
+        ]
+      },
+      "userControl": {
+        "title": "Seçenekleriniz",
+        "paragraphs": [
+          "Verileriniz üzerinde tam kontrole sahipsiniz:"
+        ],
+        "items": [
+          "Snippet kütüphanenizi istediğiniz zaman panodan JSON veya Excel olarak dışa aktarın.",
+          "Panodan tek tek kısayolları ve kategorileri düzenleyin veya silin.",
+          "Uzantıyı panodan veya araç çubuğu simgesinden genel olarak kapatın.",
+          "Yerel olarak saklanan verileri tarayıcınızdan kaldırmak için uzantıyı kaldırın."
+        ]
+      },
+      "children": {
+        "title": "Çocukların gizliliği",
+        "paragraphs": [
+          "Agent Assist profesyoneller için bir verimlilik aracıdır ve 13 yaşın altındaki çocuklara yönelik değildir. Bilerek çocuklardan kişisel bilgi toplamıyoruz."
+        ]
+      },
+      "changes": {
+        "title": "Bu politikadaki değişiklikler",
+        "paragraphs": [
+          "Uzantı değiştiğinde bu politikayı güncelleyebiliriz. Bu sayfanın üstündeki \"Son güncelleme\" tarihi en son revizyonu yansıtır. Değişikliklerden sonra Agent Assist'i kullanmaya devam etmeniz güncellenmiş politikayı kabul ettiğiniz anlamına gelir."
+        ]
+      },
+      "contact": {
+        "title": "İletişim",
+        "paragraphs": [
+          "Bu gizlilik politikası veya Agent Assist hakkında sorularınız mı var? Bize e-posta ile ulaşın:"
+        ]
+      }
+    }
   }
 }

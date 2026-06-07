@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { LogoLink } from "@/components/layout/logo-link";
 import { Container } from "@/components/layout/container";
 import { ExternalLink } from "@/components/shared/external-link";
+import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site";
 
 export async function Footer() {
@@ -26,6 +27,7 @@ export async function Footer() {
           </FooterColumn>
 
           <FooterColumn title={t("project")}>
+            <FooterLink href="/privacy">{t("privacy")}</FooterLink>
             <FooterLink href={siteConfig.github.url} external>
               {tCommon("github")}
             </FooterLink>
@@ -96,6 +98,16 @@ function FooterLink({
         <ExternalLink href={href} className={className}>
           {children}
         </ExternalLink>
+      </li>
+    );
+  }
+
+  if (href.startsWith("/")) {
+    return (
+      <li>
+        <Link href={href} className={className}>
+          {children}
+        </Link>
       </li>
     );
   }
