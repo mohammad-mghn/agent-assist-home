@@ -128,6 +128,8 @@
     "fetchingRelease": "در حال دریافت آخرین نسخه از GitHub Releases",
     "downloadTag": "دانلود {tag}",
     "downloadFallback": "دانلود از GitHub Releases",
+    "chromeStoreButton": "افزودن از Chrome Web Store",
+    "chromeStoreHint": "نصب با یک کلیک از Chrome Web Store — روی Chrome، Edge، Brave و Opera کار می‌کند",
     "chromeBuild": "build کروم (.zip)",
     "firefoxBuild": "build فایرفاکس (.zip)",
     "downloadHint": "{build} را از آخرین release گیت‌هاب دانلود می‌کند",

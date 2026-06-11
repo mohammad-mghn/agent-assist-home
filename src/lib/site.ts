@@ -3,6 +3,8 @@ export const siteConfig = {
   description:
     "Text shortcuts for support agents — anywhere you type. Type / for permanent snippets or # for quick temp replies in any textarea across the web.",
   url: "https://agent-assist.dev",
+  chromeWebStoreUrl:
+    "https://chromewebstore.google.com/detail/mlgdoodkgpdpgdeegjodabpgcohggbjc?utm_source=item-share-cb",
   github: {
     repo: "mohammad-mghn/agent-assist",
     url: "https://github.com/mohammad-mghn/agent-assist",

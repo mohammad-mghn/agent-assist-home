@@ -54,11 +54,18 @@ export function InstallationSection({
   }, []);
 
   const downloadUrl = getReleaseDownloadUrl(release, browser);
-  const versionLabel = release?.tagName
-    ? t("downloadTag", { tag: release.tagName })
-    : t("downloadFallback");
+  const versionLabel =
+    browser === "chrome"
+      ? t("chromeStoreButton")
+      : release?.tagName
+        ? t("downloadTag", { tag: release.tagName })
+        : t("downloadFallback");
   const browserLabel =
     browser === "firefox" ? t("firefoxBuild") : t("chromeBuild");
+  const downloadHint =
+    browser === "chrome"
+      ? t("chromeStoreHint")
+      : t("downloadHint", { build: browserLabel });
 
   return (
     <>
@@ -90,7 +97,7 @@ export function InstallationSection({
         <DownloadButton href={downloadUrl} label={versionLabel} />
 
         <p className="text-xs text-center text-muted-foreground">
-          {t("downloadHint", { build: browserLabel })}
+          {downloadHint}
         </p>
       </CardShell>
 

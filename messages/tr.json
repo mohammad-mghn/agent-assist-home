@@ -128,6 +128,8 @@
     "fetchingRelease": "GitHub Releases'ten en son sürüm alınıyor",
     "downloadTag": "{tag} indir",
     "downloadFallback": "GitHub Releases'ten indir",
+    "chromeStoreButton": "Chrome Web Store'dan ekle",
+    "chromeStoreHint": "Chrome Web Store'dan tek tıkla kurulum — Chrome, Edge, Brave ve Opera'da çalışır",
     "chromeBuild": "Chrome build (.zip)",
     "firefoxBuild": "Firefox build (.zip)",
     "downloadHint": "GitHub'daki en son release'ten {build} indirir",

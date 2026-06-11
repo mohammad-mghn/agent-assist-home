@@ -91,12 +91,13 @@ export function getReleaseDownloadUrl(
   release: GitHubRelease | null,
   browser: "chrome" | "firefox",
 ): string {
+  if (browser === "chrome") {
+    return siteConfig.chromeWebStoreUrl;
+  }
+
   if (!release) {
     return siteConfig.github.releasesUrl;
   }
 
-  const assetUrl =
-    browser === "firefox" ? release.assets.firefox : release.assets.chrome;
-
-  return assetUrl ?? release.htmlUrl;
+  return release.assets.firefox ?? release.htmlUrl;
 }
