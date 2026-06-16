@@ -130,6 +130,8 @@
     "downloadFallback": "تنزيل من GitHub Releases",
     "chromeStoreButton": "تنزيل من Chrome Web Store",
     "chromeStoreHint": "تنزيل من Chrome Web Store — يعمل على Chrome وEdge وBrave وOpera",
+    "firefoxStoreButton": "تنزيل من Firefox Add-ons",
+    "firefoxStoreHint": "تنزيل من Firefox Add-ons — يضيف Agent Assist مباشرة إلى Firefox",
     "chromeBuild": "build كروم (.zip)",
     "firefoxBuild": "build فايرفوكس (.zip)",
     "downloadHint": "ينزّل {build} من أحدث release على GitHub",

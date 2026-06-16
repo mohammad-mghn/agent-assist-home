@@ -130,6 +130,8 @@
     "downloadFallback": "دانلود از GitHub Releases",
     "chromeStoreButton": "دانلود از Chrome Web Store",
     "chromeStoreHint": "دانلود از Chrome Web Store — روی Chrome، Edge، Brave و Opera کار می‌کند",
+    "firefoxStoreButton": "دانلود از Firefox Add-ons",
+    "firefoxStoreHint": "دانلود از Firefox Add-ons — افزونه Agent Assist را مستقیماً به Firefox اضافه می‌کند",
     "chromeBuild": "build کروم (.zip)",
     "firefoxBuild": "build فایرفاکس (.zip)",
     "downloadHint": "{build} را از آخرین release گیت‌هاب دانلود می‌کند",

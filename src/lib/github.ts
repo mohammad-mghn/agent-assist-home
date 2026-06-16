@@ -88,16 +88,12 @@ export async function getLatestRelease(options?: {
 }
 
 export function getReleaseDownloadUrl(
-  release: GitHubRelease | null,
+  _release: GitHubRelease | null,
   browser: "chrome" | "firefox",
 ): string {
   if (browser === "chrome") {
     return siteConfig.chromeWebStoreUrl;
   }
 
-  if (!release) {
-    return siteConfig.github.releasesUrl;
-  }
-
-  return release.assets.firefox ?? release.htmlUrl;
+  return siteConfig.firefoxAddonUrl;
 }

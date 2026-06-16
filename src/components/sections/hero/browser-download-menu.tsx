@@ -17,7 +17,7 @@ import { siteConfig } from "@/lib/site";
 export function BrowserDownloadMenu() {
   const t = useTranslations("hero");
   const tCommon = useTranslations("common");
-  const browser = useBrowserDetection();
+  const [browser] = useBrowserDetection();
   const [open, setOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -65,7 +65,7 @@ export function BrowserDownloadMenu() {
             {t("chromeBrowsers")}
           </ExternalLink>
           <ExternalLink
-            href={siteConfig.github.releasesUrl}
+            href={siteConfig.firefoxAddonUrl}
             className="flex items-center gap-2 px-4 py-3 hover:bg-muted"
             style={{ color: BROWSER_COLORS.firefox }}
           >

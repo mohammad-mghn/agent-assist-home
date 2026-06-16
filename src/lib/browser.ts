@@ -14,5 +14,5 @@ export function detectBrowser(userAgent: string): BrowserKind {
 export function getBrowserInstallUrl(browser: BrowserKind): string {
   return browser === "chrome"
     ? siteConfig.chromeWebStoreUrl
-    : siteConfig.github.releasesUrl;
+    : siteConfig.firefoxAddonUrl;
 }

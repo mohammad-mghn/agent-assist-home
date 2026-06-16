@@ -5,6 +5,7 @@ export const siteConfig = {
   url: "https://agent-assist.dev",
   chromeWebStoreUrl:
     "https://chromewebstore.google.com/detail/mlgdoodkgpdpgdeegjodabpgcohggbjc?utm_source=item-share-cb",
+  firefoxAddonUrl: "https://addons.mozilla.org/en-US/firefox/addon/agent-assist/",
   github: {
     repo: "mohammad-mghn/agent-assist",
     url: "https://github.com/mohammad-mghn/agent-assist",

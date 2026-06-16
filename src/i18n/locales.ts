@@ -9,7 +9,7 @@ export type LocaleConfig = {
   dir: "ltr" | "rtl";
 };
 
-export const DEFAULT_LOCALE: LocaleCode = "en";
+export const DEFAULT_LOCALE: LocaleCode = "fa";
 
 export const LOCALES: LocaleConfig[] = [
   {

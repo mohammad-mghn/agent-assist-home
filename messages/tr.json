@@ -130,6 +130,8 @@
     "downloadFallback": "GitHub Releases'ten indir",
     "chromeStoreButton": "Chrome Web Store'dan indir",
     "chromeStoreHint": "Chrome Web Store'dan indir — Chrome, Edge, Brave ve Opera'da çalışır",
+    "firefoxStoreButton": "Firefox Add-ons'tan indir",
+    "firefoxStoreHint": "Firefox Add-ons'tan indir — Agent Assist'i doğrudan Firefox'a ekler",
     "chromeBuild": "Chrome build (.zip)",
     "firefoxBuild": "Firefox build (.zip)",
     "downloadHint": "GitHub'daki en son release'ten {build} indirir",

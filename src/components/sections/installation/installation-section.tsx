@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { CardShell } from "@/components/shared/card-shell";
 import { ExternalLink } from "@/components/shared/external-link";
+import { useBrowserDetection } from "@/hooks/use-browser-detection";
 import { type GitHubRelease, getReleaseDownloadUrl } from "@/lib/github";
 import { siteConfig } from "@/lib/site";
-import type { BrowserKind } from "@/lib/browser";
 import { DownloadButton } from "./download-button";
 import { InstallationTabs, QuickStartGuide } from "./installation-tabs";
 
@@ -25,7 +25,7 @@ export function InstallationSection({
 }: InstallationSectionProps) {
   const t = useTranslations("installation");
   const locale = useLocale();
-  const [browser, setBrowser] = useState<BrowserKind>("chrome");
+  const [browser, setBrowser] = useBrowserDetection();
   const [release, setRelease] = useState<GitHubRelease | null>(initialRelease);
 
   useEffect(() => {
@@ -55,17 +55,9 @@ export function InstallationSection({
 
   const downloadUrl = getReleaseDownloadUrl(release, browser);
   const versionLabel =
-    browser === "chrome"
-      ? t("chromeStoreButton")
-      : release?.tagName
-        ? t("downloadTag", { tag: release.tagName })
-        : t("downloadFallback");
-  const browserLabel =
-    browser === "firefox" ? t("firefoxBuild") : t("chromeBuild");
+    browser === "chrome" ? t("chromeStoreButton") : t("firefoxStoreButton");
   const downloadHint =
-    browser === "chrome"
-      ? t("chromeStoreHint")
-      : t("downloadHint", { build: browserLabel });
+    browser === "chrome" ? t("chromeStoreHint") : t("firefoxStoreHint");
 
   return (
     <>

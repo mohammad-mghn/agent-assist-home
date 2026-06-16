@@ -130,6 +130,8 @@
     "downloadFallback": "داگرتن لە GitHub Releases",
     "chromeStoreButton": "داگرتن لە Chrome Web Store",
     "chromeStoreHint": "داگرتن لە Chrome Web Store — لە Chrome، Edge، Brave و Opera کار دەکات",
+    "firefoxStoreButton": "داگرتن لە Firefox Add-ons",
+    "firefoxStoreHint": "داگرتن لە Firefox Add-ons — ڕاستەوخۆ Agent Assist بۆ Firefox زیاد دەکات",
     "chromeBuild": "build ـی Chrome (.zip)",
     "firefoxBuild": "build ـی Firefox (.zip)",
     "downloadHint": "{build} لە دوایین release ـی GitHub دادەگرێت",
