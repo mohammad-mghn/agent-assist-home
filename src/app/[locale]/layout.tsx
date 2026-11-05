@@ -42,11 +42,20 @@ export async function generateMetadata({
       url: siteConfig.url,
       siteName: siteConfig.name,
       type: "website",
+      images: [
+        {
+          url: "/og.png",
+          width: 2400,
+          height: 1254,
+          alt: siteConfig.name,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
+      images: ["/og.png"],
     },
     robots: {
       index: true,
